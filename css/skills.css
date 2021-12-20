@@ -1,0 +1,84 @@
+.skills{
+    background: #000016;
+}
+
+.skills .content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.skills .col-left{
+    position: relative;
+    width: 45%;
+}
+.skills .col-left .content-title{
+    margin-bottom: 20px;
+}
+
+.skills .col-right{
+    position: relative;
+    width: 45%;
+}
+
+.skills .col-right .bar{
+    margin-bottom: 15px;
+    padding: 10px;
+    
+}
+.skills .col-right .bar .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+
+.skills .info span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.skills .line{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: #ccc;
+    border-radius: 2px;
+}
+
+.skills .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+.skills .html::before{
+    width: 85%;
+    background:#e45126;
+}
+
+.skills .css::before{
+    width: 65%;
+    background:#0c7388;
+}
+
+.skills .script::before{
+    width: 60%;
+    background:#e3a324;
+}
+
+.skills .jquery::before{
+    width: 60%;
+    background:#30dd6d;
+}
+
+.skills .react::before{
+    width: 70%;
+    background:#6d7eb8;
+}

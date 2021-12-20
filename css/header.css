@@ -1,0 +1,47 @@
+header {
+  position: fixed;
+  background: rgb(255, 255, 255, 0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 100px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  z-index: 999;
+  transition: 0.5s ease;
+  margin: 0 auto;
+}
+header.sticky {
+  background: rgb(74, 155, 9);
+  padding: 10px 100px;
+}
+header .brand {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+header .navigation {
+  position: relative;
+  display: flex;
+}
+
+header .navigation a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+header .navigation a:hover {
+  color: rgb(243, 181, 10);
+}
+.menu-btn {
+  display: none;
+}

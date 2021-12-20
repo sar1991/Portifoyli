@@ -1,0 +1,68 @@
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(../image/bacgkround.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.home .content {
+  max-width: 800px;
+}
+
+.home .content h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.home .content h2 span {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.animated-text {
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+}
+
+.animated-text h3 {
+  color: rgb(241, 245, 10);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 1px;
+}
+
+.animated-text h3:nth-child(1) {
+  animation: text-move 10s infinite;
+}
+
+@keyframes text-move {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -75px;
+  }
+  50% {
+    margin-top: -140px;
+  }
+  75% {
+    margin-top: -70px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.media-icons a i {
+  color: #fff;
+  font-size: 25px;
+  margin-right: 30px;
+}
